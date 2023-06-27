@@ -43,10 +43,21 @@
     }
 
     body {
-        background: #F4F4F4;
+        background: #fbfcfd;
         border: 0px red solid;
         border-style: inset;
         overflow-x: hidden;
+    }
+
+    .calender  iframe{
+        overflow: hidden;
+        height: 800px; width: 1200px;
+        min-width: 900px;
+        max-width: 1060px;
+    }
+
+    .calender  iframe #page-region {
+        background: transparent !important;
     }
 
     .mainPageImage {
@@ -119,6 +130,9 @@
         height: fit-content;
         color: #333;
         font-weight: lighter;
+        width: 60%;
+        border: 0px solid red;
+        text-align: left;
     }
 
     p {
@@ -127,6 +141,18 @@
         height: fit-content;
         color: #333;
         margin-bottom: 20px;
+    }
+
+    .full {
+        margin-bottom: 0px !important;
+        text-align: center !important;
+        border: 0px solid red;
+    }
+
+    .full #promo {
+        color: #333;
+        font-weight: bolder !important;
+        text-transform: uppercase;
     }
 
     #promo {
@@ -168,9 +194,72 @@
         flex-shrink: 1;
         flex-basis: auto;
         align-self: auto;
-        order: 0;
+        order: 0; border-radius: 20px;
         background: blue;
+        position: relative;
+        transition: all .5s;
     }
+
+    .flex-items1A {
+        background-position: left;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: linear-gradient(90deg, #ffffff42 0%, #fff 50%), url("https://i.postimg.cc/FFpJ5hQn/Asset-20.png");
+    }
+
+    .flex-items1:hover {
+        box-shadow: 0px 0px 10px 10px #8888884f;
+        cursor: pointer;
+    }
+
+    .flex-items1B {
+        background-position: left;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: linear-gradient(90deg, #ffffff42 0%, #fff 50%), url("https://i.postimg.cc/x86kK3RS/Asset-21.png");
+    }
+
+    .flex-items1C {
+        background-position: left;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: linear-gradient(90deg, #ffffff42 0%, #fff 50%), url("https://i.postimg.cc/C5hBBQbN/Asset-22.png");
+    }
+
+    #hair {
+        position: absolute;
+        right: 50px; top: 30px;
+        border: 0px solid red;
+        height:30px; width: 100px;
+        background-position: right;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url("https://i.postimg.cc/43chrtJz/Asset-17.png");
+        
+    }
+ 
+    #lashes {
+        position: absolute;
+        right: 50px; top: 30px;
+        border: 0px solid red;
+        height:30px; width: 120px;
+        background-position: right;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url("https://i.postimg.cc/C1VfY119/Asset-18.png");
+    }
+ 
+    #nails {
+        position: absolute;
+        right: 50px; top: 30px;
+        border: 0px solid red;
+        height:30px; width: 100px;
+        background-position: right;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url("https://i.postimg.cc/FRgkK4kz/Asset-19.png");
+    }
+
 
     .flex-items1 img {
         height: 100px; width: 100px;
@@ -202,7 +291,7 @@
         order: 0;
         border-radius: 10px;
         border: 1px solid #333;
-        background: #F4F4F4;
+        background: #fff;
         position: relative;
 
         padding-left: 40px;
@@ -227,9 +316,13 @@
         opacity: .8;
     }
 
+    body #page-region .lmtWIHO_gkbTeeyuvoJC {
+        background-color: #f4f4f4 !important;
+    }
+
     .socials {
         position: absolute; right: 50px; top: 370px;
-        height: 420px; width: 400px; border: 0px solid red;
+        min-height: 420px; height: fit-content; width: 400px; border: 0px solid red;
         text-align: center; z-index: 100000 !important;
     }
 
@@ -243,6 +336,7 @@
     }
 
     .socials iframe {
+        min-height: 420px;
         height: calc(100%);
         width: 100%; border-radius: 5px; 
     }
