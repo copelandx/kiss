@@ -23,6 +23,14 @@
 
 @media screen and (min-width: 1200px) {
 
+    .Desktop {
+        display: unset !important;
+    }
+
+    .Mobile {
+        display: none !important;
+    }
+
     /* Desktop Format */
     *,
     body {
@@ -34,14 +42,6 @@
         font-family: 'Poppins', sans-serif;
     }
 
-    #Destop {
-        display: unset;
-    }
-
-    #Mobile {
-        display: none;
-    }
-
     body {
         background: #fbfcfd;
         border: 0px red solid;
@@ -49,6 +49,19 @@
         overflow-x: hidden;
     }
 
+    .eventLogo {
+        height: 100px;
+        width: 166px;
+        position: absolute;
+        margin-top: 7px;
+        margin-left: 736px;
+        background-image: url(https://i.postimg.cc/dt5RBg3x/KCC-logo-CMYK-for-Print-L.jpg);
+        opacity: .5;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        border: red 0px solid;
+    }
     .calender2 iframe {
         overflow: hidden;
         height: 800px;
@@ -57,7 +70,7 @@
         /* max-width: 1060px; */
     }
 
-    .calender  iframe{
+    .calender iframe{
         overflow: hidden;
         height: 800px; width: 1200px;
         min-width: 900px;
@@ -125,6 +138,12 @@
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
+    }
+
+    h1 {
+        margin-left: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     h2 {
@@ -323,6 +342,24 @@
         align-items: center;
     }
 
+    .flex-items2A {
+        width: 100%;
+        margin: 10px;
+        height: 80px;
+        display: block;
+        border-radius: 10px;
+        border: 1px solid #333;
+        background: #fff;
+        position: relative;
+
+        padding-left: 40px;
+        padding-top:20px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .flex-items2A svg,
     .flex-items2 svg {
         position: absolute;
         width: 60px !important; height: 50px !important;
@@ -332,6 +369,7 @@
         left: 15px; top: 15px; fill: #0CC0DF; background-size: contain;
     }
 
+    .flex-items2A p,
     .flex-items2 p {
         border: red 0px solid; width: fit-content;
         height: fit-content; font-weight: bold; font-size:14px;

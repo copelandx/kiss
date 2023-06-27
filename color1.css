@@ -1,18 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@500&display=swap');
+
 @media screen and (max-width: 1200px) { /* Mobile Format */
     *, body {
         margin: 0; padding: 0;
         box-sizing: border-box;
+        overflow-x: hidden;
+        font-family: 'Bebas Neue', sans-serif;
+        font-family: 'Poppins', sans-serif;
     }
 
-    #Destop {
+    .calender2 {
+        overflow: hidden;
+        height: 100%;
+        width: 95vw;
+        min-width: 900px;
+        left:0; right: 0;
+        margin-right: auto;
+        margin-left: auto;
+        /* max-width: 1060px; */
+    }
+
+    .calendly-inline-widget::-webkit-scrollbar {
         display: none;
     }
 
-    #Mobile {
+
+    .Desktop {
+        display: none !important;
+    }
+
+    .Mobile {
         display: unset;
     }
     
-    body {
-        background: blue;
+    *, body {
+        margin: 0; padding: 0;
+    }
+    
+    .wp-site-blocks {
+        padding-left: unset !important;
+        padding-right: unset !important;
+    }
+    
+    body::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .mobileHeader {
+        height: 100px; width: 100vw;
+        background-image: linear-gradient(180deg, #1D737C 0%, #5CE1E6 80%, #fff 100%);
+        padding-top: 10px;
+    }
+    
+    .mobileHeader .logo {
+        background-size: contain; 
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url("https://i.postimg.cc/xdq9hFGC/Asset-5.png");
+        width: 90vw; height: 50px;
+        left:0; right: 0;
+        margin-right: auto;
+        margin-left: auto;
+        border: red 0px solid;
+    }
+    
+    .headerImage {
+        height: 200px; width: 90%;
+        left:0; right: 0;
+        margin-right: auto;
+        margin-left: auto;
+        position: relative;
+        background: transparent; border-radius: 20px;
+        
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-top: 20px;
+        overflow: unset;
+    }
+    
+    .ribbonA {
+        height: 50px; width: 150px;
+        background-image: url("https://i.postimg.cc/C57h3MBC/ribbonA.png");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: -40px; left: -50px;
+    }
+    
+    .ribbonB {
+        height: 50px; width: 150px;
+        background-image: url("https://i.postimg.cc/C57h3MBC/ribbonA.png");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        rotate: 180deg;
+        bottom: -40px; right: -50px;
+    }
+    
+    .comapnyLogo {
+        width: 90vw; height: 100px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background: transparent;
+        left:0; right: 0;
+        margin-right: auto;
+        margin-left: auto;
+
+        background-image: url("https://i.postimg.cc/dt5RBg3x/KCC-logo-CMYK-for-Print-L.jpg");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .clickCard {
+        width: 90vw; height: 120px;
+        background: #FFF;
+        left:0; right: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #hair {
+        position: absolute;
+        right: 28px;
+        top: 42px;
+        border: 0px solid red;
+        height:30px; width: 100px;
+        background-position: right;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url("https://i.postimg.cc/43chrtJz/Asset-17.png");
+        
+    }
+ 
+    #lashes {
+        position: absolute;
+        right: 28px;
+        top: 42px;
+        border: 0px solid red;
+        height:30px; width: 120px;
+        background-position: right;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url("https://i.postimg.cc/C1VfY119/Asset-18.png");
+    }
+ 
+    #nails {
+        position: absolute;
+        right: 28px;
+        top: 42px;
+        border: 0px solid red;
+        height:30px; width: 100px;
+        background-position: right;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url("https://i.postimg.cc/FRgkK4kz/Asset-19.png");
+    }
+    
+    .clickCard .flex-items1A {
+        position: relative;
+        height: 120px; width: 100%;
+        background-position: left;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-image: linear-gradient(90deg, #ffffff42 0%, #fff 50%), url("https://i.postimg.cc/FFpJ5hQn/Asset-20.png");
+    }
+    
+    .clickCard .flex-items1B {
+        position: relative;
+        height: 120px; width: 100%;
+      background-position: left;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-image: linear-gradient(90deg, #ffffff42 0%, #fff 50%), url("https://i.postimg.cc/x86kK3RS/Asset-21.png");
+    }
+    
+    .clickCard .flex-items1C {
+        position: relative;
+        height: 120px; width: 100%;
+      background-position: left;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-image: linear-gradient(90deg, #ffffff42 0%, #fff 50%), url("https://i.postimg.cc/C5hBBQbN/Asset-22.png");
+    }
+    
+    .infoCard {
+        width: 90vw; height: 100px;
+        background: transparent;
+        left:0; right: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        margin-right: auto;
+        margin-left: auto;
+        border: 1px solid #333;
+        background: #fff;
+        position: relative;
+
+        padding-left: 80px;
+        padding-top: 10px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .infoCard svg {
+        position: absolute;
+        width: 60px !important;
+        height: 50px !important;
+        border: 0px solid blue;
+        padding-right: 10px;
+        border-right: 1px solid #333;
+        left: 15px;
+        top: 30px;
+        fill: #0CC0DF;
+        background-size: contain;
+    }
+
+    #promo {
+        color: #08bdd1;
+        font-weight: bolder !important;
+        text-transform: uppercase;
+    }
+
+    .infoCard p {
+        border: red 1px solid;
+        width: fit-content;
+        height: fit-content;
+        font-weight: bold;
+        font-size: 13px;
+        opacity: .8;
+    }
+
+    .socials iframe::-webkit-scrollbar {
+        display: none;
+    }
+
+    .socials {
+        min-height: 420px;
+        height: calc(100%);
+        
+        width: 90vw;
+        left:0; right: 0;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    h1 {
+        width: 100%; 
+        text-align: center;
+        font-size: 25px;
+    }
+
+    #context {
+        width: 90vw;
+        left:0; right: 0;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 14px;
+        opacity: .5;
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+
+    h2,
+    .socials p {
+        width: 100%; 
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .socials iframe {
+        min-height: 420px;
+        height: calc(100%);
+        
+        width: 90vw; border-radius: 5px; 
+    }
+
+    footer {
+        position: relative;
+        width: 100vw;
+        height: 100px;
+        background-image: linear-gradient(180deg, #f4f4f400 0%, #5CE1E6 20%, #1D737C 98%);
+    }
+
+    footer .logo {
+        height: 50px;
+        width: 100px;
+        bottom: 10px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+
+        background-image: url("https://i.postimg.cc/QtpxqJjy/footer.png");
+        opacity: 1;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
     }
 }
