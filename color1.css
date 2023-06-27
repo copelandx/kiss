@@ -225,7 +225,7 @@
     }
 
     .infoCard p {
-        border: red 1px solid;
+        border: red 0px solid;
         width: fit-content;
         height: fit-content;
         font-weight: bold;
