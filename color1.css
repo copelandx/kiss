@@ -37,11 +37,6 @@
         margin: 0; padding: 0;
     }
     
-    .wp-site-blocks {
-        padding-left: unset !important;
-        padding-right: unset !important;
-    }
-    
     body::-webkit-scrollbar {
         display: none;
     }
