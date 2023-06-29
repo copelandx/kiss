@@ -232,7 +232,7 @@
     }
 
     .infoCard p {
-        border: red 0px solid;
+        border: red 0px solid !important;
         width: fit-content;
         height: fit-content;
         font-weight: bold;
@@ -281,7 +281,6 @@
     .socials iframe {
         min-height: 420px;
         height: calc(100%);
-        
         width: 90vw; border-radius: 5px; 
     }
 
