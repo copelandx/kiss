@@ -406,7 +406,7 @@
     }
 
     .socials iframe {
-        min-height: 220px;
+        height: 220px;
         height: calc(100%);
         width: 100%; border-radius: 5px; 
     }
